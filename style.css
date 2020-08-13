@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    position:relative;
+}
+.app{
+    height:80vh;
+    width:100%;
+    /* overflow:hidden; */
+}
+
+
+.toprow, .namerow, .checkboxrow{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.toprow{
+    border:2px solid black;
+    background:skyblue;
+    height:15vh;
+}
+
+
+
+.namerow{
+    height:10vh;
+    width:100%;
+}
+
+.firstnamediv, .lastnamediv, .checkboxdiv{
+    width:50%;
+    height:100%;
+    border:1px solid black;
+}
+
+
+.input-text{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.stickit{
+    width:100px;
+    height:30px;
+    background:yellow;
+    text-align:center;
+    top:20px;
+}
+
+.stickitwaiver{
+    width:100px;
+    height:30px;
+    background:yellow;
+    text-align:center;
+}
+
+
+.checkboxrow{
+    background:skyblue;
+    height:10vh;
+}
+
+
+.checkboxdiv{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.checkbox{
+    height:18px;
+    width:20px;
+    background:white;
+}
+
+
+.lastnameinput{
+    width:50%;
+    display:flex;
+}
+
+
+
+.socialdiv{
+    width:60%;
+    height:100%;
+    left:50%;
+
+}
+
+.socialheader{
+    text-align:center;
+    height:40%;
+    width:100%;
+}
+
+.socialbody{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    height:60%;
+    width:100%;
+}
+
+.social_one, .social_two, .social_three{
+    flex:1;
+    height:100%;
+}
+
+.social_one{
+    border-left:1px solid black;
+}
+
+.social_two{
+    border-left:1px solid black;
+}
+
+/* .social_three{
+    border-left:1px solid black;
+} */
+
+
+.smallbold{
+    top:-2px;
+    font-weight:5px;
+    left:-25px;
+}
+
+
+.mainwaiver{
+    height:30vh;
+    width:100%;
+    display:flex;
+}
+
+.infodiv{
+    width:33%;
+    height:100%;
+    border:1px solid black;
+    display:flex;
+    background:lightblue;
+}
+
+.infoarrow{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+.formdiv{
+    width:70%;
+    height:100%;
+    /* border:3px solid red; */
+}
+
+.formlabel{
+    background:lightblue;
+    height:20%;
+}
+
+.formarea{
+    height:80%;
+    width:100%;
+}
+
+
+.signatureone, .signaturetwo, .signaturethree{
+    display:flex;
+    height:33%;
+}
+
+.signaturearea{
+    width:80%;
+    height:100%;
+    border:1px solid black;
+}
+
+.datearea{
+    width:20%;
+    height:100%;
+    border:1px solid black;
+}
+
+
+.addtext{
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+
